@@ -1,0 +1,113 @@
+@media all and (max-width: 1360px) {
+  .header {
+    display: block;
+  }
+  .header__profil {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 80px 0 30px 0;
+  }
+  .header__content {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 80px 0;
+  }
+  .header__info-contacts {
+    position: relative;
+    margin-top: 60px;
+  }
+  .header__info-inner {
+    justify-content: space-around;
+    gap: 0;
+  }
+  .header__info-title {
+    text-align: center;
+  }
+  .header__info-wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .header__info-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .about {
+    display: block;
+  }
+  .about__profil {
+    background: #282929;
+    width: 100%;
+  }
+  .about__profil h2 {
+    text-align: left;
+  }
+  .about__info {
+    width: 100%;
+  }
+  .skills {
+    display: block;
+  }
+  .skills__profil {
+    background: #282929;
+    width: 100%;
+  }
+  .skills__profil h2 {
+    text-align: left;
+  }
+  .skills__info {
+    width: 100%;
+  }
+  .education {
+    display: block;
+  }
+  .education__profile {
+    background: #282929;
+    width: 100%;
+  }
+  .education__profile h2 {
+    text-align: left;
+  }
+  .education__info {
+    width: 100%;
+  }
+  .footer {
+    display: block;
+  }
+  .footer__profile {
+    background: #282929;
+    width: 100%;
+  }
+  .footer__profile h2 {
+    text-align: left;
+  }
+  .footer__info {
+    width: 100%;
+  }
+}
+@media all and (max-width: 992px) {
+  .header__info-inner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    text-align: center;
+  }
+  .education__info-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .education__info .grid-col:nth-child(2) {
+    margin-top: 10px;
+  }
+  .footer__info-inner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    text-align: center;
+  }
+  .footer__info-wrapper {
+    display: block;
+  }
+}
+@media all and (max-width: 576px) {
+  .footer__info-title span {
+    font-size: 48px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

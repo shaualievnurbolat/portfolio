@@ -1,0 +1,134 @@
+.header {
+    background-color: #2D2E2E;
+    &__profil {
+      background-color: #2B2C2C;
+      &-pic {
+        background-color: #000;
+      }
+    }
+    &__content {
+      background-color: #2D2E2E;
+    }
+    &__info {
+      &-contacts {
+        hr {
+          background: #404242;
+        }
+      }
+      &-inner {
+        &-element {
+          h3 {
+            color: #A4A5A6;
+          }
+          span {
+            color: #979899;
+          }
+        }
+      }
+    }
+  }
+  
+  .about {
+    &__profil {
+      background-color: #292A2A;
+    }
+    &__info {
+      background-color: #2B2C2C;
+      &-descr {
+        color: #979899;
+      }
+    }
+  }
+  
+  .skills {
+    &__profil {
+      background-color: #2B2C2C;
+    }
+    &__info {
+      background-color: #2D2E2E;
+      &-descr {
+        color: #A4A5A6;
+        span {
+          color: #E0A80D;
+        }
+      }
+      &-progress {
+        background-color: #404242;
+        &:before {
+          background-color: #E0A80D;
+        }
+      }
+    }
+  }
+  
+  .education {
+    &__profile {
+      background-color: #292A2A;
+    }
+    &__info {
+      background-color: #2B2C2C;
+      &-content {
+        border-color: #404242;
+      }
+      &-dots {
+        box-shadow: 0 0 0 6px #2d2e2e;
+        background-color: #E0A80D;
+      }
+      .grid-col {
+        &__title {
+          color: #636464;
+        }
+        &__name {
+          color: #A4A5A6;
+        }
+        &__job {
+          color: #A4A5A6;
+        }
+        p {
+          color: #979899;
+        }
+      }
+    }
+  }
+  
+  .footer {
+    &__profile {
+      background-color: #2B2C2C;
+    }
+    &__info {
+      background-color: #2D2E2E;
+      &-contacts {
+        hr {
+          background: #404242;
+        }
+      }
+      &-inner {
+        &-element {
+          h3 {
+            color: #A4A5A6;
+          }
+          span {
+            color: #979899;
+          }
+        }
+      }
+    }
+  }
+  
+  .theme {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    svg {
+      fill: #636464;
+    }
+  }
+
+  .change-theme[data-theme="dark"] {
+    display: none;
+  }
+
+  .change-theme[data-theme="light"] {
+    display: block;
+  }
+  
+  
+  

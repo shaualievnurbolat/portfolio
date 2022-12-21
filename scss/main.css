@@ -1,0 +1,150 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.style-h2 {
+  color: #A3A5A6;
+  text-align: right;
+}
+
+.style-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background: #3F4040;
+  border: 3px solid #3F4040;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: 0.15s all linear;
+  cursor: pointer;
+}
+.style-icon:hover {
+  background: none;
+}
+.style-icon:hover svg {
+  fill: #E0A80D;
+}
+.style-icon svg {
+  width: 23px;
+  fill: #717273;
+  transition: 0.3s all;
+}
+
+.progress-30:before {
+  width: 30%;
+  -webkit-animation: 1s ease-in 1s 1 both progressAnimation-30 !important;
+          animation: 1s ease-in 1s 1 both progressAnimation-30 !important;
+}
+
+.progress-50:before {
+  width: 50%;
+  -webkit-animation: 1s ease-in 1s 1 both progressAnimation-50 !important;
+          animation: 1s ease-in 1s 1 both progressAnimation-50 !important;
+}
+
+.progress-60:before {
+  width: 60%;
+  -webkit-animation: 1s ease-in 1s 1 both progressAnimation-60 !important;
+          animation: 1s ease-in 1s 1 both progressAnimation-60 !important;
+}
+
+.progress-70:before {
+  width: 70%;
+  -webkit-animation: 1s ease-in 1s 1 both progressAnimation-70 !important;
+          animation: 1s ease-in 1s 1 both progressAnimation-70 !important;
+}
+
+@-webkit-keyframes progressAnimation {
+  to {
+    width: 80%;
+  }
+  from {
+    width: 0%;
+  }
+}
+
+@keyframes progressAnimation {
+  to {
+    width: 80%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes progressAnimation-30 {
+  to {
+    width: 30%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@keyframes progressAnimation-30 {
+  to {
+    width: 30%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes progressAnimation-50 {
+  to {
+    width: 50%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@keyframes progressAnimation-50 {
+  to {
+    width: 50%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes progressAnimation-60 {
+  to {
+    width: 60%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@keyframes progressAnimation-60 {
+  to {
+    width: 60%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes progressAnimation-70 {
+  to {
+    width: 70%;
+  }
+  from {
+    width: 0%;
+  }
+}
+@keyframes progressAnimation-70 {
+  to {
+    width: 70%;
+  }
+  from {
+    width: 0%;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,140 @@
+
+@media all and (max-width: 1360px) {
+  .header {
+    display: block;
+    &__profil {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      padding: 80px 0 30px 0;
+    }
+    &__content {
+      width: 100%;
+      height: auto;
+      padding: 30px 0 80px 0;
+    }
+    &__info {
+      &-contacts {
+        position: relative;
+        margin-top: 60px;
+      }
+      &-inner {
+        justify-content: space-around;
+        gap: 0;
+      }
+      &-title {
+        text-align: center;
+      }
+      &-wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      &-icons {
+        justify-content: center;
+        margin-top: 20px;
+      }
+    }
+  }
+  .about {
+    display: block;
+    &__profil {
+      background: #282929;
+      width: 100%;
+      h2 {
+        text-align: left;
+      }
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+  .skills {
+    display: block;
+    &__profil {
+      background: #282929;
+      width: 100%;
+      h2 {
+        text-align: left;
+      }
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+  .education {
+    display: block;
+    &__profile {
+      background: #282929;
+      width: 100%;
+      h2 {
+        text-align: left;
+      }
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+  .footer {
+    display: block;
+    &__profile {
+      background: #282929;
+      width: 100%;
+      h2 {
+        text-align: left;
+      }
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 992px) {
+  .header {
+    &__info {
+      &-inner {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        text-align: center;
+      }
+    }
+  }
+
+  .education {
+    &__info {
+      &-grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .grid-col {
+        &:nth-child(2) {
+          margin-top: 10px
+        }
+      }
+    }
+  }
+
+  .footer {
+    &__info {
+      &-inner {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        text-align: center;
+      }
+      &-wrapper {
+        display: block;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .footer {
+    &__info {
+      &-title {
+        span {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}

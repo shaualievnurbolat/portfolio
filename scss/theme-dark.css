@@ -1,0 +1,107 @@
+.header {
+  background-color: #2D2E2E;
+}
+.header__profil {
+  background-color: #2B2C2C;
+}
+.header__profil-pic {
+  background-color: #000;
+}
+.header__content {
+  background-color: #2D2E2E;
+}
+.header__info-contacts hr {
+  background: #404242;
+}
+.header__info-inner-element h3 {
+  color: #A4A5A6;
+}
+.header__info-inner-element span {
+  color: #979899;
+}
+
+.about__profil {
+  background-color: #292A2A;
+}
+.about__info {
+  background-color: #2B2C2C;
+}
+.about__info-descr {
+  color: #979899;
+}
+
+.skills__profil {
+  background-color: #2B2C2C;
+}
+.skills__info {
+  background-color: #2D2E2E;
+}
+.skills__info-descr {
+  color: #A4A5A6;
+}
+.skills__info-descr span {
+  color: #E0A80D;
+}
+.skills__info-progress {
+  background-color: #404242;
+}
+.skills__info-progress:before {
+  background-color: #E0A80D;
+}
+
+.education__profile {
+  background-color: #292A2A;
+}
+.education__info {
+  background-color: #2B2C2C;
+}
+.education__info-content {
+  border-color: #404242;
+}
+.education__info-dots {
+  box-shadow: 0 0 0 6px #2d2e2e;
+  background-color: #E0A80D;
+}
+.education__info .grid-col__title {
+  color: #636464;
+}
+.education__info .grid-col__name {
+  color: #A4A5A6;
+}
+.education__info .grid-col__job {
+  color: #A4A5A6;
+}
+.education__info .grid-col p {
+  color: #979899;
+}
+
+.footer__profile {
+  background-color: #2B2C2C;
+}
+.footer__info {
+  background-color: #2D2E2E;
+}
+.footer__info-contacts hr {
+  background: #404242;
+}
+.footer__info-inner-element h3 {
+  color: #A4A5A6;
+}
+.footer__info-inner-element span {
+  color: #979899;
+}
+
+.theme {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.theme svg {
+  fill: #636464;
+}
+
+.change-theme[data-theme=dark] {
+  display: none;
+}
+
+.change-theme[data-theme=light] {
+  display: block;
+}/*# sourceMappingURL=theme-dark.css.map */

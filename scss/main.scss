@@ -1,0 +1,158 @@
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+@mixin styleIcons() {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+// style title h2
+.style-h2 {
+  color: #A3A5A6;
+  text-align: right;
+}
+
+// style icons
+.style-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #3F4040;
+    border: 3px solid #3F4040;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    transition: .15s all linear;
+    cursor: pointer;
+
+    &:hover {
+      background: none;
+      svg {
+        fill: #E0A80D;
+      }
+    }
+    svg {
+      width: 23px;
+      fill: #717273;
+
+      transition: .3s all;
+    }
+}
+
+// progresbar
+.progress-30 {
+  &:before {
+    width: 30%;
+
+    animation: 1s ease-in 1s 1 both progressAnimation-30 !important;
+  }
+}
+.progress-50 {
+  &:before {
+    width: 50%;
+
+    animation: 1s ease-in 1s 1 both progressAnimation-50 !important;
+  }
+}
+.progress-60 {
+  &:before {
+    width: 60%;
+
+    animation: 1s ease-in 1s 1 both progressAnimation-60 !important;
+  }
+}
+.progress-70 {
+  &:before {
+    width: 70%;
+
+    animation: 1s ease-in 1s 1 both progressAnimation-70 !important;
+  }
+}
+
+@mixin styleTitle {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1;
+  color: #A4A5A6;
+  span {
+    font-weight: 700;
+    font-size: 62px;
+    text-transform: uppercase;
+    color: #E0A80D;
+  }
+
+  margin-bottom: 20px;
+}
+
+@mixin styleSubTitle {
+  font-weight: 200;
+  font-size: 18px;
+  color: #899899;
+}
+
+@mixin display-flex($content) {
+  display: flex;
+  justify-content: $content;
+}
+
+@keyframes progressAnimation {
+  to {
+    width: 80%;
+  }
+  from {
+    width: 0%;
+  }
+}
+
+@keyframes progressAnimation-30 {
+  to {
+    width: 30%;
+  }
+  from {
+    width: 0%;
+  }
+}
+
+@keyframes progressAnimation-50 {
+  to {
+    width: 50%;
+  }
+  from {
+    width: 0%;
+  }
+}
+
+@keyframes progressAnimation-60 {
+  to {
+    width: 60%;
+  }
+  from {
+    width: 0%;
+  }
+}
+
+@keyframes progressAnimation-70 {
+  to {
+    width: 70%;
+  }
+  from {
+    width: 0%;
+  }
+}

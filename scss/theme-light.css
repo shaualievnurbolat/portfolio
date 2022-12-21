@@ -1,0 +1,121 @@
+.header {
+  background-color: #FFF;
+}
+.header__profil {
+  background-color: #FBFBFB;
+}
+.header__profil-pic {
+  background-color: #000;
+}
+.header__content {
+  background-color: #FFF;
+}
+.header__info-contacts hr {
+  background: #ECECEC;
+}
+.header__info-inner-element h3 {
+  color: #A4A5A6;
+}
+.header__info-inner-element span {
+  color: #979899;
+}
+
+.style-icon {
+  background: #EDEDED;
+  border: 3px solid #EDEDED;
+}
+.style-icon:hover {
+  background: none;
+}
+.style-icon:hover svg {
+  fill: #E0A80D;
+}
+.style-icon svg {
+  fill: #C6C6C6;
+}
+
+.about__profil {
+  background-color: #F8F8F8;
+}
+.about__info {
+  background-color: #FCFCFC;
+}
+.about__info-descr {
+  color: #979899;
+}
+
+.skills__profil {
+  background-color: #FBFBFB;
+}
+.skills__info {
+  background-color: #FFF;
+}
+.skills__info-descr {
+  color: #A4A5A6;
+}
+.skills__info-descr span {
+  color: #E0A80D;
+}
+.skills__info-progress {
+  background-color: #ECECEC;
+}
+.skills__info-progress:before {
+  background-color: #E0A80D;
+}
+
+.education__profile {
+  background-color: #F8F8F8;
+}
+.education__info {
+  background-color: #FCFCFC;
+}
+.education__info-content {
+  border-color: #ECECEC;
+}
+.education__info-dots {
+  box-shadow: 0 0 0 6px #fff;
+  background-color: #E0A80D;
+}
+.education__info .grid-col__title {
+  color: #636464;
+}
+.education__info .grid-col__name {
+  color: #A4A5A6;
+}
+.education__info .grid-col__job {
+  color: #A4A5A6;
+}
+.education__info .grid-col p {
+  color: #979899;
+}
+
+.footer__profile {
+  background-color: #FBFBFB;
+}
+.footer__info {
+  background-color: #FFF;
+}
+.footer__info-contacts hr {
+  background: #ECECEC;
+}
+.footer__info-inner-element h3 {
+  color: #A4A5A6;
+}
+.footer__info-inner-element span {
+  color: #979899;
+}
+
+.theme {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.theme svg {
+  fill: #636464;
+}
+
+.change-theme[data-theme=dark] {
+  display: block;
+}
+
+.change-theme[data-theme=light] {
+  display: none;
+}/*# sourceMappingURL=theme-light.css.map */

@@ -1,0 +1,145 @@
+.header {
+    background-color: #FFF;
+    &__profil {
+      background-color: #FBFBFB;
+      &-pic {
+        background-color: #000;
+      }
+    }
+    &__content {
+      background-color: #FFF;
+    }
+    &__info {
+      &-contacts {
+        hr {
+          background: #ECECEC;
+        }
+      }
+      &-inner {
+        &-element {
+          h3 {
+            color: #A4A5A6;
+          }
+          span {
+            color: #979899;
+          }
+        }
+      }
+    }
+  }
+
+  .style-icon {
+    background: #EDEDED;
+    border: 3px solid #EDEDED;
+    &:hover {
+      background: none;
+      svg {
+        fill: #E0A80D;
+      }
+    }
+    svg {
+      fill: #C6C6C6;
+    }
+}
+  
+  .about {
+    &__profil {
+      background-color: #F8F8F8;
+    }
+    &__info {
+      background-color: #FCFCFC;
+      &-descr {
+        color: #979899;
+      }
+    }
+  }
+  
+  .skills {
+    &__profil {
+      background-color: #FBFBFB;
+    }
+    &__info {
+      background-color: #FFF;
+      &-descr {
+        color: #A4A5A6;
+        span {
+          color: #E0A80D;
+        }
+      }
+      &-progress {
+        background-color: #ECECEC;
+        &:before {
+          background-color: #E0A80D;
+        }
+      }
+    }
+  }
+  
+  .education {
+    &__profile {
+      background-color: #F8F8F8;
+    }
+    &__info {
+      background-color: #FCFCFC;
+      &-content {
+        border-color: #ECECEC;
+      }
+      &-dots {
+        box-shadow: 0 0 0 6px #fff;
+        background-color: #E0A80D;
+      }
+      .grid-col {
+        &__title {
+          color: #636464;
+        }
+        &__name {
+          color: #A4A5A6;
+        }
+        &__job {
+          color: #A4A5A6;
+        }
+        p {
+          color: #979899;
+        }
+      }
+    }
+  }
+  
+  .footer {
+    &__profile {
+      background-color: #FBFBFB;
+    }
+    &__info {
+      background-color: #FFF;
+      &-contacts {
+        hr {
+          background: #ECECEC;
+        }
+      }
+      &-inner {
+        &-element {
+          h3 {
+            color: #A4A5A6;
+          }
+          span {
+            color: #979899;
+          }
+        }
+      }
+    }
+  }
+  
+  .theme {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    svg {
+      fill: #636464;
+    }
+  }
+
+  .change-theme[data-theme="dark"] {
+    display: block;
+  }
+
+  .change-theme[data-theme="light"] {
+    display: none;
+  }
